@@ -1,0 +1,13 @@
+prefix=/Users/devimmfeb25/Developer/document_portal/env
+exec_prefix=/Users/devimmfeb25/Developer/document_portal/env
+libdir=/Users/devimmfeb25/Developer/document_portal/env/lib
+sharedlibdir=/Users/devimmfeb25/Developer/document_portal/env/lib
+includedir=/Users/devimmfeb25/Developer/document_portal/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
