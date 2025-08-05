@@ -1,2 +1,7 @@
 .env
 document_portal.egg-info
+requirements.txt
+env/
+
+
+
