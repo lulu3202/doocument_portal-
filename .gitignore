@@ -1,7 +1,10 @@
 .env
 document_portal.egg-info
-requirements.txt
 env/
-
+logs/
+*.pyc
+test.py
+venv/
+__pycache__/
 
 
