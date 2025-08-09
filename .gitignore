@@ -7,4 +7,5 @@ test.py
 venv/
 __pycache__/
 test.py
+faiss_index/
 
