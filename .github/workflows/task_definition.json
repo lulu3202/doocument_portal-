@@ -1,14 +1,14 @@
 {
   "family": "documentportaltd",
   "networkMode": "awsvpc",
-  "executionRoleArn": "arn:aws:iam::741378484073:user/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::741378484073:role/ecsTaskExecutionRole",
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "1024",
   "memory": "8192",
   "containerDefinitions": [
     {
       "name": "document-portal-container",
-      "image": "741378484073.dkr.ecr.ap-southeast-2.amazonaws.com/documentportalliveclass:8a2cd81a97ab416756c71cf0fb2356683e919c09",
+      "image": "741378484073.dkr.ecr.ap-southeast-2.amazonaws.com/documentportalliveclass",
       "cpu": 1024,
       "essential": true,
       "portMappings": [
